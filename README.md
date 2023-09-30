@@ -1,11 +1,23 @@
-# Pokémon Yellow [![Build Status][ci-badge]][ci]
+# Pokémon Yellow H4XX [![Build Status][ci-badge]][ci]
 
-This is a disassembly of Pokémon Yellow.
+This is an edit of Pokémon Yellow, made possible by [pret]’s [pokeyellow] disassembly.
+
+## Goal of the hack
+
+1. Modify some sprites, thus
+1. Modifying some palettes
+1. Making it possible to catch the 151 pokémons
+1. Modifying some strings
+1. Putting some QoL (to define)
+
+## Palettes
+
+They’re in `data/sgb/sgb_palettes.asm`
 
 It builds the following ROMs:
 
-- Pokemon Yellow (UE) [C][!].gbc  `sha1: cc7d03262ebfaf2f06772c1a480c7d9d5f4a38e1`
-- YELLMONS.GB (debug build) `sha1: d44e96eddfbdad633cbe4e6e64915e9e198974b0`
+- pokeyellow.gbc
+- YELLMONS.GB (debug build) ???
 - Dmgapse0.h08.patch `sha1: f3346a5559d52c296b8feab0cdbbfb0e250ac161`
 
 To set up the repository, see [**INSTALL.md**](INSTALL.md).
@@ -29,6 +41,8 @@ Other disassembly projects:
 - [**Pokémon FireRed**][pokefirered]
 - [**Pokémon Emerald**][pokeemerald]
 
+[pret]: https://github.com/pret/
+[pokeyellow]: https://github.com/pret/pokeyellow
 [pokered]: https://github.com/pret/pokered
 [pokegold]: https://github.com/pret/pokegold
 [pokecrystal]: https://github.com/pret/pokecrystal
@@ -42,5 +56,5 @@ Other disassembly projects:
 [symbols]: https://github.com/pret/pokeyellow/tree/symbols
 [discord]: https://discord.gg/d5dubZ3
 [irc]: https://web.libera.chat/?#pret
-[ci]: https://github.com/pret/pokeyellow/actions
-[ci-badge]: https://github.com/pret/pokeyellow/actions/workflows/main.yml/badge.svg
+[ci]: https://github.com/vvvictoire/pokeyellow/actions
+[ci-badge]: https://github.com/vvvictoire/pokeyellow/actions/workflows/main.yml/badge.svg
