@@ -1,13 +1,14 @@
+; Menu labels (won’t affect player’s actual name)
 DefaultNamesPlayer:
 	db   "NEW NAME"
 	next "YELLOW"
 	next "ASH"
-	next "JACK"
+	next "LEAF"
 	db   "@"
 
 DefaultNamesRival:
 	db   "NEW NAME"
 	next "BLUE"
 	next "GARY"
-	next "JOHN"
+	next "BUTT"
 	db   "@"

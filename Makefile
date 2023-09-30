@@ -78,6 +78,7 @@ tidy:
 	$(MAKE) clean -C tools/
 
 compare: $(roms) $(patches)
+	echo "Will fail, definitive hashes will be put in roms.sha1 once the project is more complete"
 	@$(SHA1) -c roms.sha1
 
 tools:
