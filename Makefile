@@ -59,6 +59,7 @@ clean: tidy
 	     \( -iname '*.pcm' \) \
 	     -delete
 
+# todo: replace hardcoded .sav and .ss0 names with $(roms)-dependant names
 tidy:
 	$(RM) $(roms) \
 	      $(roms:.gbc=.sym) \
@@ -71,6 +72,8 @@ tidy:
 	      $(pokeyellow_obj) \
 	      $(pokeyellow_vc_obj) \
 	      $(pokeyellow_debug_obj) \
+	      pokeyellow.sav \
+	      pokeyellow.ss0 \
 	      rgbdscheck.o
 	$(MAKE) clean -C tools/
 
