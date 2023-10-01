@@ -72,14 +72,16 @@ tidy:
 	      $(pokeyellow_obj) \
 	      $(pokeyellow_vc_obj) \
 	      $(pokeyellow_debug_obj) \
-	      pokeyellow.sav \
-	      pokeyellow.ss0 \
+	      *.sav \
+	      *.ss0 \
 	      rgbdscheck.o
 	$(MAKE) clean -C tools/
 
 compare: $(roms) $(patches)
-	echo "Will fail, definitive hashes will be put in roms.sha1 once the project is more complete"
 	@$(SHA1) -c roms.sha1
+
+hash: $(roms) $(patches)
+	@$(SHA1) $(roms) $(patches) > roms.sha1
 
 tools:
 	$(MAKE) -C tools/

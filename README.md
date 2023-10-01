@@ -14,6 +14,8 @@ This is an edit of Pokémon Yellow, made possible by [pret]’s [pokeyellow] dis
 
 They’re in `data/sgb/sgb_palettes.asm`
 
+Palette-Pokémon association in `data/pokemon/palettes.asm`
+
 It builds the following ROMs:
 
 - pokeyellow.gbc
